@@ -57,13 +57,3 @@ To isolate lightweight edge workloads without a heavy hypervisor, your kernel ne
 3. **Copy-on-Write (CoW) Memory & RootFS:**
    - Container image layering: Mount a base read-only file system tree and attach an ephemeral writable scratch space.
 
----
-
-## Stage 6: Suggested Reading Progression for the Team
-| Phase | Focus Area | Deliverable |
-|---|---|---|
-| **Week 1** | Bootstrapping & Toolchain | UART prints "Hello World" from C on QEMU `virt`. |
-| **Week 2-3** | Memory Systems | Frame allocator + SV39 Paging + Heap `kmalloc()`. |
-| **Week 4** | Traps & Syscalls | Handle software traps; execute basic user-space `ecall`. |
-| **Week 5-6** | Preemption & IPC | Round-robin scheduler with `fork()` and `exec()`. |
-| **Week 7+** | Containers & Storage | Isolated namespaces, memory limits, and OCI-style init task. |
