@@ -8,3 +8,6 @@ I'm gonna write this one myself cause we are not slopineers around here. Here's 
 
 4. HOLY GRAIL: https://github.com/ak495867/Kernel-guide <- Hikey, I think the project would be super meaningful if we follow this guide and start working together to do the optimization and extensions? IDK I really thing this is the key learning process for all of us to get up to speed and then we make it a meaningful product.
 5. https://www.youtube.com/playlist?list=PLbtzT1TYeoMiKup6aoQc3V_d7OvOKc3P5 This youtube playlist explains a bunch of stuff.
+
+
+6. https://pdos.csail.mit.edu/6.828/2024/xv6/book-riscv-rev4.pdf. This is a link explaining another teaching os based on linux. 
